@@ -3,23 +3,24 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#333; /*changes color of the whole text*/
 	margin-top: 0;
+    background:linear-gradient(to bottom, rgba(60,140,245,0.65) 0%,rgba(0,0,0,0) 100%)
 }
 #wrapper{
 	width:960px;
 	margin: 0 auto;
 	padding-left: 1%;
 	padding-right: 1%;
-	-webkit-box-shadow: 0px 0px 5px #ececec;
-	-moz-box-shadow:    0px 0px 5px #ececec;
-	box-shadow:         0px 0px 5px #ececec;
+	-webkit-box-shadow: 0px 0px 8px #F4D57E;
+	-moz-box-shadow:    0px 0px 8px #F4D57E;
+	box-shadow:         0px 0px 8px #F4D57E;
 
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #8A542F; /*changes color of border under project name*/
 }
 h1{
 	margin-top: 0;
@@ -30,7 +31,7 @@ h2{
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f9;  /*changes color of the background of the table*/
+	background: #BF8646;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
 }
@@ -39,15 +40,15 @@ tr{
 	border-color: inherit;
 }
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: #F4D57E; /*changes color of the stripes table*/
 }
 th{
 	text-align: left;
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	color: #fff;  /*changes color of table hd text*/
+	background: #3C8CF5; /*changes color of table hd background*/
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
@@ -94,6 +95,15 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+    color: #3C8CF5;
+}
+
+a:active{
+    color: #F4D57E;
+}
+
+a:visited{
+    color: #FF0000;
 }
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
